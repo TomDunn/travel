@@ -1,0 +1,38 @@
+{% import 'macros.html' as _m -%}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    {% include 'page.header.html' %}
+    
+    {{ _m.title(title, crumbs, ignore) }}
+</head>
+
+<body>
+    <div id="container">
+        <nav id="main">
+            <div id="header">
+                <h1><a href="{{ get_url() }}">{{ site.title }}</a></h1>
+                {% if site.subtitle %}<h2>{{ site.subtitle }}</h2>{% endif %}
+            </div>
+            
+            <ul>
+                <li>
+                    {{ _("Navigation") }}
+                    
+                    <ul class="unstyled">
+                        <li><a href="{{ get_url('docs/quickstart/') }}">{{ _("Put links here") }}</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        
+        <div id="content">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+    
+</body>
+</html>

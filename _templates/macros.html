@@ -1,0 +1,38 @@
+{% macro breadcrumbs(crumbs) %}
+    {% for crumb in crumbs %}
+        {% set link = crumb[0] %}
+        {% set url = crumb[1]|default(none) %}
+        
+        <li>{% if url %}<a href="{{ get_url(url) }}">{{ link }}</a>{% else %}{{ link }}{% endif %}{% if not loop.last %}<span>&rsaquo;</span>{% endif %}</li>
+    {% endfor %}
+{% endmacro %}
+
+{% macro title(title = none, crumbs = none, ignore = false) %}
+    {% if site.title or title or crumbs %}
+        <title>
+            {% if (title or crumbs) and not ignore %}
+                {% if title %}{{ title }}{% else %}{{ crumbs|join(' &rsaquo; ', 0) }}{% endif %}{% if site.title %} &ndash; {{ site.title }}{% endif %}
+            {% else %}
+                {{ site.title }}{% if site.subtitle %} &ndash; {{ site.subtitle }}{% endif %}
+            {% endif %}
+        </title>
+    {% endif %}
+{% endmacro %}
+
+{% macro toc(tree, parent = '') %}
+    {% for node in tree %}
+        {% set name = node[0] %}
+        {% set anchor = name|lower|replace(' ', '-') %}
+        {% set children = node[1]|default(none) %}
+        
+        <li>
+            <a href="#{% if parent %}{{ parent }}.{% endif %}{{ anchor }}">{{ name }}</a>
+            
+            {% if children %}
+                <ul class="unstyled">
+                    {{ toc(children, '%s.%s'|format(parent, anchor) if parent else anchor) }}
+                </ul>
+            {% endif %}
+        </li>
+    {% endfor %}
+{% endmacro %}

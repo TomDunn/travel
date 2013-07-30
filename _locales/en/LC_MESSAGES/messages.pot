@@ -1,0 +1,1307 @@
+# Translations template for mynt.
+# Copyright (C) 2013 Andrew Fricke
+# This file is distributed under the same license as the mynt project.
+# Andrew Fricke <andrew@mirroredwhite.com>, 2013.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mynt\n"
+"Report-Msgid-Bugs-To: andrew@mirroredwhite.com\n"
+"POT-Creation-Date: 2013-04-15 07:41-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Andrew Fricke <andrew@mirroredwhite.com>\n"
+"Language-Team: English <andrew@mirroredwhite.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: index.html:5
+msgid "Overview"
+msgstr ""
+
+#: index.html:8
+msgid "<em>Another static site generator?</em>"
+msgstr ""
+
+#: index.html:9
+msgid ""
+"With the ever growing population of static site generators, all filling a"
+" certain need, I've yet to find one that allows the generation of "
+"anything but the simplest of blogs."
+msgstr ""
+
+#: index.html:10
+msgid ""
+"That's where mynt comes in, being designed to give you all the features "
+"of a CMS with none of the often rigid implementations of those features."
+msgstr ""
+
+#: index.html:12
+msgid "Highlights"
+msgstr ""
+
+#: index.html:14
+msgid ""
+"Multiple ways of getting post data, whether ordered by year and month or "
+"by tag."
+msgstr ""
+
+#: index.html:15
+msgid "Automatic generation of common pages such as those for archives and tags."
+msgstr ""
+
+#: index.html:16
+msgid "Freedom in the markup language and rendering engine used."
+msgstr ""
+
+#: index.html:19
+msgid "Where to start?"
+msgstr ""
+
+#: index.html:21
+#, python-format
+msgid ""
+"If you're looking to get up and running quickly, give the <a "
+"href=\"%(quickstart)s\">quickstart</a> guide a read. Otherwise, if you're"
+" familiar with static site generators, the other, more reference style "
+"doc pages may be a better jumping off point for you. You can also check "
+"out the <a href=\"%(sites)s\">sites</a> page and check out the sites "
+"who's sources are available if you prefer working off of examples."
+msgstr ""
+
+#: index.html:26
+msgid "I have a question! / How can I help?"
+msgstr ""
+
+#: index.html:27
+msgid ""
+"There are two main places to find other people messing around with mynt: "
+"<a href=\"https://github.com/Anomareh/mynt\">GitHub</a> and <a "
+"href=\"http://webchat.freenode.net/?channels=mynt\">IRC</a>. Feel free to"
+" use whichever you're the most comfortable with. I only ask if you choose"
+" IRC and have a question, please give me a bit <em>(more than a few "
+"hours)</em> to see it and help you!"
+msgstr ""
+
+#: _templates/layout.html:24 docs/command-line/index.html:4
+#: docs/config/index.html:4 docs/quickstart/index.html:4
+#: docs/templates/index.html:4
+msgid "Docs"
+msgstr ""
+
+#: _templates/layout.html:27 docs/quickstart/index.html:4
+msgid "Quickstart"
+msgstr ""
+
+#: _templates/layout.html:28 docs/command-line/index.html:4
+msgid "Command Line"
+msgstr ""
+
+#: _templates/layout.html:29 docs/config/index.html:4
+msgid "Config"
+msgstr ""
+
+#: _templates/layout.html:30 docs/quickstart/index.html:14
+#: docs/quickstart/index.html:107 docs/templates/index.html:4
+msgid "Templates"
+msgstr ""
+
+#: _templates/layout.html:35 community/sites/index.html:4
+msgid "Community"
+msgstr ""
+
+#: _templates/layout.html:38
+msgid "GitHub"
+msgstr ""
+
+#: _templates/layout.html:39
+msgid "IRC"
+msgstr ""
+
+#: _templates/layout.html:40 community/sites/index.html:4
+msgid "Sites"
+msgstr ""
+
+#: _templates/layout.html:45
+msgid "News"
+msgstr ""
+
+#: _templates/layout.html:48
+msgid "Latest"
+msgstr ""
+
+#: _templates/layout.html:49 docs/quickstart/index.html:26
+#: docs/quickstart/index.html:209
+msgid "Archives"
+msgstr ""
+
+#: _templates/layout.html:50
+msgid "Feed"
+msgstr ""
+
+#: community/sites/index.html:7
+msgid ""
+"Below is a list of sites that use mynt <em>(some with links to their "
+"sources)</em> for people looking for some working examples of mynt sites "
+"or are just curious about how people are using mynt."
+msgstr ""
+
+#: community/sites/index.html:9
+msgid ""
+"If you'd like your site added to this list, either message me (Anomareh) "
+"in the mynt <a href=\"http://webchat.freenode.net/?channels=mynt\">IRC "
+"channel</a> or send me an <a "
+"href=\"mailto:andrew@mirroredwhite.com\">email</a> with the URL to the "
+"site as well as a link to it's source if it's publicly available "
+"somewhere."
+msgstr ""
+
+#: docs/command-line/index.html:6
+msgid "mynt"
+msgstr ""
+
+#: docs/command-line/index.html:7
+msgid "gen"
+msgstr ""
+
+#: docs/command-line/index.html:8
+msgid "init"
+msgstr ""
+
+#: docs/command-line/index.html:9
+msgid "serve"
+msgstr ""
+
+#: docs/command-line/index.html:10
+msgid "watch"
+msgstr ""
+
+#: docs/command-line/index.html:19
+msgid "The main command provided by mynt."
+msgstr ""
+
+#: docs/command-line/index.html:24
+msgid "Sets mynt's log level."
+msgstr ""
+
+#: docs/command-line/index.html:30
+msgid "Sets mynt's log level to <code>ERROR</code>."
+msgstr ""
+
+#: docs/command-line/index.html:36
+msgid "Sets mynt's log level to <code>DEBUG</code>."
+msgstr ""
+
+#: docs/command-line/index.html:42
+msgid "Prints mynt's version and exits."
+msgstr ""
+
+#: docs/command-line/index.html:47
+msgid "The available subcommands."
+msgstr ""
+
+#: docs/command-line/index.html:52
+msgid "Generates a mynt site."
+msgstr ""
+
+#: docs/command-line/index.html:57
+msgid ""
+"Forces generation by <strong>deleting</strong> the destination if it "
+"exists."
+msgstr ""
+
+#: docs/command-line/index.html:59 docs/command-line/index.html:101
+msgid ""
+"If the destination exists and this flag is passed, mynt will "
+"<strong>delete</strong> the destination."
+msgstr ""
+
+#: docs/command-line/index.html:66
+msgid ""
+"Forces generation by <strong>emptying</strong> the destination if it "
+"exists."
+msgstr ""
+
+#: docs/command-line/index.html:68
+msgid ""
+"If the destination exists and this flag is passed, mynt will "
+"<strong>delete</strong> any directory or file at the root of the "
+"destination that doesn't begin with an underscore or period."
+msgstr ""
+
+#: docs/command-line/index.html:73 docs/command-line/index.html:130
+#: docs/command-line/index.html:157
+msgid "Sets the site's base URL overriding the config setting."
+msgstr ""
+
+#: docs/command-line/index.html:76 docs/command-line/index.html:160
+msgid "Sets the locale used by the renderer."
+msgstr ""
+
+#: docs/command-line/index.html:80 docs/command-line/index.html:164
+msgid "The directory mynt looks in for source files."
+msgstr ""
+
+#: docs/command-line/index.html:82 docs/command-line/index.html:136
+#: docs/command-line/index.html:166
+msgid "If not supplied, the current directory is used."
+msgstr ""
+
+#: docs/command-line/index.html:87 docs/command-line/index.html:113
+#: docs/command-line/index.html:171
+msgid "The directory mynt outputs to."
+msgstr ""
+
+#: docs/command-line/index.html:94
+msgid "Initializes a new mynt site."
+msgstr ""
+
+#: docs/command-line/index.html:99
+msgid ""
+"Forces initialization by <strong>deleting</strong> the destination if it "
+"exists."
+msgstr ""
+
+#: docs/command-line/index.html:107
+msgid "Sets which theme will be used."
+msgstr ""
+
+#: docs/command-line/index.html:110
+msgid "Initializes a new site without using a theme."
+msgstr ""
+
+#: docs/command-line/index.html:120
+msgid "Launches a local test server for displaying a generated mynt site."
+msgstr ""
+
+#: docs/command-line/index.html:122 docs/quickstart/index.html:235
+msgid ""
+"This subcommand should not be used to publicly host your site. It should "
+"only be used for local development and testing."
+msgstr ""
+
+#: docs/command-line/index.html:127
+msgid "Sets the port used by the server."
+msgstr ""
+
+#: docs/command-line/index.html:134
+msgid "The directory mynt will serve."
+msgstr ""
+
+#: docs/command-line/index.html:145
+msgid ""
+"Watches a mynt site and automatically regenerates it when changes are "
+"made."
+msgstr ""
+
+#: docs/command-line/index.html:150
+msgid ""
+"Forces watching by <strong>emptying</strong> the destination every time a"
+" change is made if it exists."
+msgstr ""
+
+#: docs/command-line/index.html:152
+msgid ""
+"If the destination exists and this flag is passed, every time a change is"
+" made mynt will <strong>delete</strong> any directory or file at the root"
+" of the destination that doesn't begin with an underscore or period."
+msgstr ""
+
+#: docs/config/index.html:6
+msgid "archive_layout"
+msgstr ""
+
+#: docs/config/index.html:7
+msgid "archives_url"
+msgstr ""
+
+#: docs/config/index.html:8
+msgid "assets_url"
+msgstr ""
+
+#: docs/config/index.html:9
+msgid "base_url"
+msgstr ""
+
+#: docs/config/index.html:10
+msgid "date_format"
+msgstr ""
+
+#: docs/config/index.html:11
+msgid "domain"
+msgstr ""
+
+#: docs/config/index.html:12
+msgid "include"
+msgstr ""
+
+#: docs/config/index.html:13
+msgid "locale"
+msgstr ""
+
+#: docs/config/index.html:14
+msgid "markup"
+msgstr ""
+
+#: docs/config/index.html:15
+msgid "parser"
+msgstr ""
+
+#: docs/config/index.html:16
+msgid "posts_url"
+msgstr ""
+
+#: docs/config/index.html:17
+msgid "pygmentize"
+msgstr ""
+
+#: docs/config/index.html:18
+msgid "renderer"
+msgstr ""
+
+#: docs/config/index.html:19
+msgid "tag_layout"
+msgstr ""
+
+#: docs/config/index.html:20
+msgid "tags_url"
+msgstr ""
+
+#: docs/config/index.html:27
+msgid "The template used to generate archive pages."
+msgstr ""
+
+#: docs/config/index.html:29
+msgid "Must be set to enable automatic archive page generation."
+msgstr ""
+
+#: docs/config/index.html:34
+msgid "The base URL for archive pages."
+msgstr ""
+
+#: docs/config/index.html:37
+msgid ""
+"The URL, from <code>base_url</code>, assets will be served from after "
+"generation."
+msgstr ""
+
+#: docs/config/index.html:40
+msgid "The URL the site will be served from after generation."
+msgstr ""
+
+#: docs/config/index.html:43
+msgid ""
+"The <a href=\"http://docs.python.org/library/datetime.html#strftime-and-"
+"strptime-behavior\">format</a> of <code>post.date</code>."
+msgstr ""
+
+#: docs/config/index.html:46
+msgid "The domain the site will be served from after generation."
+msgstr ""
+
+#: docs/config/index.html:49
+msgid ""
+"A list of <a href=\"http://docs.python.org/2/library/fnmatch.html#module-"
+"fnmatch\">glob</a> patterns specifying directories and files to be copied"
+" over that would otherwise be ignored."
+msgstr ""
+
+#: docs/config/index.html:52
+msgid "The locale used by the renderer."
+msgstr ""
+
+#: docs/config/index.html:55
+msgid "The markup language used for posts."
+msgstr ""
+
+#: docs/config/index.html:58
+msgid "The parser used for posts."
+msgstr ""
+
+#: docs/config/index.html:66
+msgid "Variable"
+msgstr ""
+
+#: docs/config/index.html:67
+msgid "Description"
+msgstr ""
+
+#: docs/config/index.html:74
+msgid "Day of the post as a decimal."
+msgstr ""
+
+#: docs/config/index.html:79
+msgid "Day of the post as an integer without leading zeros."
+msgstr ""
+
+#: docs/config/index.html:84
+msgid "Month of the post as an integer without leading zeros."
+msgstr ""
+
+#: docs/config/index.html:89
+msgid "Month of the post as a decimal."
+msgstr ""
+
+#: docs/config/index.html:94
+msgid "The title of the post."
+msgstr ""
+
+#: docs/config/index.html:99
+msgid "Year of the post with century."
+msgstr ""
+
+#: docs/config/index.html:107
+msgid "Whether or not code highlighting is enabled."
+msgstr ""
+
+#: docs/config/index.html:108
+msgid "You can highlight code in Markdown by using fenced code blocks."
+msgstr ""
+
+#: docs/config/index.html:112
+msgid ""
+"Or you can highlight code in HTML by simply setting the <code>data-"
+"lang</code> attribute of the <code>&lt;code&gt;</code> tag."
+msgstr ""
+
+#: docs/config/index.html:115
+msgid ""
+"You'll also probably want a stylesheet for your highlighted code. You can"
+" read more about styles in Pygments <a "
+"href=\"http://pygments.org/docs/styles/\">here</a> if you want to make "
+"your own, or you can grab one of the stylesheets included with Pygments "
+"from <a href=\"https://github.com/Anomareh/pygments-styles-"
+"dump\">here</a>."
+msgstr ""
+
+#: docs/config/index.html:120
+msgid "The renderer used."
+msgstr ""
+
+#: docs/config/index.html:124
+msgid "The template used to generate tag pages."
+msgstr ""
+
+#: docs/config/index.html:126
+msgid "Must be set to enable automatic tag page generation."
+msgstr ""
+
+#: docs/config/index.html:131
+msgid "The base URL for tag pages."
+msgstr ""
+
+#: docs/quickstart/index.html:6 docs/quickstart/index.html:39
+msgid "Installation"
+msgstr ""
+
+#: docs/quickstart/index.html:7 docs/quickstart/index.html:50
+msgid "Directory structure"
+msgstr ""
+
+#: docs/quickstart/index.html:8 docs/quickstart/index.html:69
+msgid "The assets directory"
+msgstr ""
+
+#: docs/quickstart/index.html:9 docs/quickstart/index.html:75
+msgid "The locales directory"
+msgstr ""
+
+#: docs/quickstart/index.html:10 docs/quickstart/index.html:78
+msgid "The posts directory"
+msgstr ""
+
+#: docs/quickstart/index.html:11 docs/quickstart/index.html:84
+msgid "The templates directory"
+msgstr ""
+
+#: docs/quickstart/index.html:13 docs/quickstart/index.html:95
+msgid "Configuration"
+msgstr ""
+
+#: docs/quickstart/index.html:15 docs/quickstart/index.html:112
+msgid "Helper functions"
+msgstr ""
+
+#: docs/quickstart/index.html:16 docs/quickstart/index.html:119
+#: docs/templates/index.html:7 docs/templates/index.html:31
+msgid "Globals"
+msgstr ""
+
+#: docs/quickstart/index.html:17 docs/quickstart/index.html:130
+#: docs/templates/index.html:13 docs/templates/index.html:78
+msgid "Locals"
+msgstr ""
+
+#: docs/quickstart/index.html:19 docs/quickstart/index.html:146
+msgid "Posts"
+msgstr ""
+
+#: docs/quickstart/index.html:20 docs/quickstart/index.html:154
+msgid "YAML frontmatter"
+msgstr ""
+
+#: docs/quickstart/index.html:21 docs/quickstart/index.html:172
+msgid "Renderer functionality"
+msgstr ""
+
+#: docs/quickstart/index.html:23 docs/quickstart/index.html:188
+msgid "Tagging"
+msgstr ""
+
+#: docs/quickstart/index.html:24
+msgid "Automatic tag pages"
+msgstr ""
+
+#: docs/quickstart/index.html:27
+msgid "Automatic archive pages"
+msgstr ""
+
+#: docs/quickstart/index.html:29 docs/quickstart/index.html:220
+msgid "Generation"
+msgstr ""
+
+#: docs/quickstart/index.html:33
+msgid ""
+"The goal of this guide is to get you up and running quickly with mynt. If"
+" after reading this guide you still have questions that aren't answered "
+"by the other doc pages or you run into any issues, feel free to open an "
+"issue on <a href=\"https://github.com/Anomareh/mynt/issues\">GitHub</a> "
+"or hop in <a href=\"http://webchat.freenode.net/?channels=mynt\">IRC</a>."
+msgstr ""
+
+#: docs/quickstart/index.html:40
+msgid ""
+"The recommended way to install mynt is via <a href=\"http://www.pip-"
+"installer.org/\">pip</a>. If you already have pip installed, the below "
+"should be all you need. Otherwise, head on over to the pip site to get it"
+" <a href=\"http://www.pip-"
+"installer.org/en/latest/installing.html\">installed</a>."
+msgstr ""
+
+#: docs/quickstart/index.html:42
+msgid ""
+"After mynt has been installed, simply run the mynt command with the "
+"<code>--version</code> flag to confirm everything completed successfully."
+msgstr ""
+
+#: docs/quickstart/index.html:51
+msgid ""
+"Let's start off by initializing a new site. This is done with the "
+"<code>init</code> subcommand."
+msgstr ""
+
+#: docs/quickstart/index.html:54
+msgid ""
+"Throughout the rest of this guide, the directory you initialized your "
+"site in will be referred to as the project root. Given the above usage of"
+" <code>init</code>, the project root would be <code>~/projects/my-mynt-"
+"site/</code>."
+msgstr ""
+
+#: docs/quickstart/index.html:57
+msgid ""
+"If the directory you want to initialize your site in already exists, you "
+"will have to pass the <code>-f</code> flag to force initialization."
+msgstr ""
+
+#: docs/quickstart/index.html:59
+msgid ""
+"In doing so, mynt will <strong>delete</strong> that directory in the "
+"process. For example, if the directory <code>my-mynt-site</code> already "
+"exists in <code>~/projects/</code>, the above command will "
+"<strong>delete</strong> <code>my-mynt-site</code> before recreating it "
+"and initializing your site there."
+msgstr ""
+
+#: docs/quickstart/index.html:61
+msgid ""
+"Now that you have your site initialized, there are two general rules "
+"governing how directories and files are handled by mynt."
+msgstr ""
+
+#: docs/quickstart/index.html:62
+msgid ""
+"The first of which being any directory or file who's name begins with an "
+"underscore or a period will be ignored. The one exception to this rule "
+"being the four special directories that we will talk about shortly. "
+"However, do note that you can have ignored directories and files within "
+"these four special directories."
+msgstr ""
+
+#: docs/quickstart/index.html:63
+msgid ""
+"The second rule is that outside of the assets and posts directories "
+"<em>(two of the four special directories)</em>, all files that "
+"<strong>aren't</strong> HTML or XML files are ignored."
+msgstr ""
+
+#: docs/quickstart/index.html:65
+msgid ""
+"This rule is handy if you want to have a README or LICENSE file at the "
+"root of your project. Since neither of those files are HTML or XML files,"
+" mynt will ignore them."
+msgstr ""
+
+#: docs/quickstart/index.html:67
+msgid ""
+"Now, onto those four special directories. In a mynt site there are four "
+"special directories: <code>_assets/</code>, <code>_locales/</code>, "
+"<code>_posts/</code>, and <code>_templates/</code>. These four "
+"directories are all located at the project root."
+msgstr ""
+
+#: docs/quickstart/index.html:70
+msgid ""
+"The assets directory is where everything that isn't a template lives. CSS"
+" files, images, JavaScript libraries, and so on. If you want mynt to "
+"recognized a file that <strong>isn't</strong> an HTML or XML file, it has"
+" to live somewhere in the assets directory."
+msgstr ""
+
+#: docs/quickstart/index.html:72
+msgid ""
+"One place ignored directories can be useful is in the assets directory. "
+"For example, if you are using a CSS preprocessor like SASS, you can put "
+"your SASS files in <code>_assets/css/_sass/</code>, have SASS output to "
+"<code>_assets/css/</code>, and all of your SASS files will be ignored by "
+"mynt."
+msgstr ""
+
+#: docs/quickstart/index.html:76
+msgid ""
+"The locales directory is used for localization. Localization is a bit of "
+"a complicated topic to get into here, so just know that this is where "
+"your <code>.mo</code> files would live if you were maintaining a site "
+"available in multiple languages."
+msgstr ""
+
+#: docs/quickstart/index.html:79
+msgid ""
+"You likely guessed it. The posts directory is where all of your posts "
+"will live. There isn't really anything else to say about this directory."
+msgstr ""
+
+#: docs/quickstart/index.html:81
+msgid ""
+"Ignored directories can also be put to use in the posts directory. For "
+"example, if you have some post ideas you are working on, but aren't ready"
+" to publish them, you can put them in <code>_posts/_drafts/</code> and "
+"mynt will ignore them."
+msgstr ""
+
+#: docs/quickstart/index.html:85
+msgid ""
+"Lastly, there's the templates directory. The name of this directory can "
+"be a bit confusing for the sole reason that <strong>any</strong> HTML or "
+"XML file that isn't in either the assets or posts directories is a "
+"template. They will all get passed through the configured renderer "
+"<em>(Jinja by default)</em>."
+msgstr ""
+
+#: docs/quickstart/index.html:86
+msgid ""
+"The difference between having a template in the templates directory and "
+"somewhere else in your site, is that templates in the templates directory"
+" are not actual pages. They are simply templates that get reused by other"
+" templates or are used by mynt internally <em>(like a post's "
+"<code>layout</code>)</em>."
+msgstr ""
+
+#: docs/quickstart/index.html:88
+msgid ""
+"It may help clear things up if you think of the templates directory as an"
+" includes directory."
+msgstr ""
+
+#: docs/quickstart/index.html:97
+#, python-format
+msgid ""
+"The configuration of mynt is handled by a single file at the root of your"
+" project: <code>config.yml</code>. If the file doesn't exist a set of "
+"defaults will be used, but if you wish to change any settings you'll have"
+" to create it. All of the settings are rather straight forward, so I "
+"won't go into detail here, but if that's what you're looking for, check "
+"out the <a href=\"%(config)s\">config</a> documentation."
+msgstr ""
+
+#: docs/quickstart/index.html:101
+msgid ""
+"One powerful thing about mynt's configuration file, is that "
+"<strong>everything</strong> in it, mynt setting or not, is made available"
+" to templates. This can be taken advantage of in many ways. For example, "
+"you could add a title or author attribute and then if you ever need to "
+"change that information, all you have to do is update it in your site's "
+"config rather than in every template."
+msgstr ""
+
+#: docs/quickstart/index.html:108
+msgid ""
+"With your site set up and a general sense of how a mynt site is "
+"structured, let's move on to templates."
+msgstr ""
+
+#: docs/quickstart/index.html:109
+msgid ""
+"In the case of this guide <em>(and also by default)</em> the renderer "
+"used is <a href=\"http://jinja.pocoo.org/\">Jinja</a>. If you're not "
+"already familiar with Jinja, head on over and give the <a "
+"href=\"http://jinja.pocoo.org/docs/templates/\">Jinja documentation</a> a"
+" quick read."
+msgstr ""
+
+#: docs/quickstart/index.html:110
+msgid ""
+"For the most part a template in mynt is no different from any other Jinja"
+" template. However, there are three things worth mentioning. The first "
+"being two mynt specific helper functions and the second as well as the "
+"third being the available globals and locals."
+msgstr ""
+
+#: docs/quickstart/index.html:113
+msgid ""
+"Two mynt specific helper functions are provided to make retrieving URLs "
+"within your site easier. They do this by taking into account how your "
+"site is configured. Specifically the <code>assets_url</code>, "
+"<code>base_url</code>, and <code>domain</code> settings."
+msgstr ""
+
+#: docs/quickstart/index.html:114
+msgid ""
+"The first helper function is <code>get_asset()</code>. You should use it "
+"whenever you need a URL to anything living in the assets directory. The "
+"second helper function is <code>get_url()</code> and it should be used "
+"whenever you need a URL to anywhere else in your site."
+msgstr ""
+
+#: docs/quickstart/index.html:116
+msgid ""
+"Whenever you need a link internal to your site, you should use these two "
+"helper functions. The reason being, if you ever decide to move it, you'll"
+" only need to update the relevant configuration settings to update all of"
+" the links."
+msgstr ""
+
+#: docs/quickstart/index.html:120
+msgid ""
+"Template globals are variables containing site data that are available in"
+" every template. There are four template globals: <code>site</code>, "
+"<code>posts</code>, <code>archives</code>, and <code>tags</code>."
+msgstr ""
+
+#: docs/quickstart/index.html:121
+msgid ""
+"The first, <code>site</code>, is simply a dictionary of everything in the"
+" site's config file. The other three all contain your site's posts each "
+"organized in a different way. First there is <code>posts</code>, which is"
+" just a list. Then there is <code>archives</code>, which is a dictionary "
+"organized by year and month. Lastly there is <code>tags</code>, which is "
+"organized by tag and ordered by post count then name."
+msgstr ""
+
+#: docs/quickstart/index.html:124
+#, python-format
+msgid ""
+"For a detailed look at the structure of the template globals, check out "
+"the <a href=\"%(globals)s\">globals</a> section of the templates "
+"documentation."
+msgstr ""
+
+#: docs/quickstart/index.html:131
+msgid ""
+"Template locals are very similar to the globals we just discussed with "
+"the one exception that they are only available in specific templates. "
+"There are three template locals: <code>post</code>, <code>archive</code>,"
+" and <code>tag</code>."
+msgstr ""
+
+#: docs/quickstart/index.html:132
+msgid ""
+"Each local is a specific item of it's respective global that is made "
+"available to the template defined by it's respective layout setting."
+msgstr ""
+
+#: docs/quickstart/index.html:133
+msgid ""
+"For example, <code>post</code> is only available to templates that are "
+"used as a post's <code>layout</code> and contains the data of a single "
+"post. Similarly, <code>archive</code> is only available to "
+"<code>archive_layout</code> and contains the data of a single year of the"
+" <code>archives</code> global. And lastly, <code>tag</code> is only "
+"available to <code>tag_layout</code> and contains the data of a single "
+"tag."
+msgstr ""
+
+#: docs/quickstart/index.html:136
+#, python-format
+msgid ""
+"For a detailed look at the structure of the template locals, check out "
+"the <a href=\"%(locals)s\">locals</a> section of the templates "
+"documentation."
+msgstr ""
+
+#: docs/quickstart/index.html:147
+msgid "Now with templates out of the way, let's move on to posts."
+msgstr ""
+
+#: docs/quickstart/index.html:148
+msgid ""
+"The first thing you need to know about posts is that post filenames need "
+"to be formatted in a specific way."
+msgstr ""
+
+#: docs/quickstart/index.html:150
+msgid ""
+"The hour and minute is optional and if not supplied the hour and minute "
+"of when you last edited the post will be used. In the case of having "
+"multiple posts on the same day, if you edited them in the order you want "
+"them displayed, you don't need to supply the hour and minute."
+msgstr ""
+
+#: docs/quickstart/index.html:151
+msgid "Now let's take a look at how posts need to be formatted themselves."
+msgstr ""
+
+#: docs/quickstart/index.html:152
+msgid ""
+"With the site you've initialized <em>(and by default)</em>, the markup "
+"language used in posts is <a "
+"href=\"http://daringfireball.net/projects/markdown/\">Markdown</a>. There"
+" are only two things that differentiate a post from an ordinary Markdown "
+"document. The first being the YAML frontmatter and the second being the "
+"ability to use the features of the configured renderer."
+msgstr ""
+
+#: docs/quickstart/index.html:155
+msgid ""
+"The YAML frontmatter is a block of YAML fenced by three dashes at the "
+"start of a post containing post metadata. It looks like the following:"
+msgstr ""
+
+#: docs/quickstart/index.html:159
+msgid ""
+"Every post <strong>requires</strong> a YAML frontmater with the "
+"<code>layout</code> attribute set. The <code>layout</code> attribute "
+"tells mynt which template in the templates directory it should use to "
+"render the post."
+msgstr ""
+
+#: docs/quickstart/index.html:160
+msgid ""
+"The only other attribute that has a special meaning in the YAML "
+"frontmatter, though it's <strong>optional</strong>, is <code>tags</code>."
+" The <code>tags</code> attribute is used by the tagging functionality "
+"mynt offers which we'll talk about later."
+msgstr ""
+
+#: docs/quickstart/index.html:161
+msgid ""
+"You are free to add whatever data you want to a post's YAML frontmatter "
+"and it will be available in templates when accessing that specific post. "
+"A common example of this is using an attribute to store the formatted "
+"version of a post's title."
+msgstr ""
+
+#: docs/quickstart/index.html:163
+msgid ""
+"There are many ways to make use of the YAML frontmatter. For example, you"
+" can implement simple multiple author support by adding an author "
+"attribute to every post. Then a specific author's posts can be grabbed by"
+" filtering a for loop or using the <code>groupby</code> filter."
+msgstr ""
+
+#: docs/quickstart/index.html:173
+msgid ""
+"All of the features of the configured renderer are also available for use"
+" in posts with the exception of what data is available. The only template"
+" data available to posts is the YAML frontmatter of the post itself and "
+"the <code>site</code> template global."
+msgstr ""
+
+#: docs/quickstart/index.html:182
+msgid ""
+"For example, in the above post, Jinja functionality is used to create a "
+"header containing the value of the title attribute from the YAML "
+"frontmatter as well as a template helper to grab a link to an image."
+msgstr ""
+
+#: docs/quickstart/index.html:189
+msgid ""
+"With templates and posts covered, let's move on to how mynt handles "
+"tagging."
+msgstr ""
+
+#: docs/quickstart/index.html:190
+msgid ""
+"To tag a post, simply add the <code>tags</code> attribute to the YAML "
+"frontmatter containing a list of the desired tags."
+msgstr ""
+
+#: docs/quickstart/index.html:197
+msgid ""
+"Tags are <strong>case-sensitive</strong>. <em>\"Foo\"</em> and "
+"<em>\"foo\"</em> are two different tags."
+msgstr ""
+
+#: docs/quickstart/index.html:199
+msgid ""
+"Once a post has been tagged, this change is reflected in a couple of "
+"ways. First, all of a post's tags will be available via a "
+"<code>tags</code> attribute. Second, that post will be added to each tag "
+"in the <code>tags</code> global."
+msgstr ""
+
+#: docs/quickstart/index.html:202
+msgid ""
+"If your site has a lot of tagged posts it may be desirable to have a "
+"separate page for each tag. One of mynt's key features is the ability to "
+"do just that."
+msgstr ""
+
+#: docs/quickstart/index.html:203
+msgid ""
+"To enable it, <code>tag_layout</code> must be set in your site's config. "
+"This setting tells mynt which template in the templates directory to use "
+"when rendering these pages. Once it is set, a page will be rendered with "
+"that template for each tag."
+msgstr ""
+
+#: docs/quickstart/index.html:210
+msgid "We've gone over posts and tagging so now let's talk about archives."
+msgstr ""
+
+#: docs/quickstart/index.html:211
+msgid ""
+"For the most part, how you want to handle post archives is up to you. To "
+"give you as much flexibility as possible there are the three template "
+"globals. Most notably, <code>archives</code>, which is a dictionary of "
+"your site's posts organized by year and month."
+msgstr ""
+
+#: docs/quickstart/index.html:213
+msgid ""
+"Just like with tags, another key feature of mynt is the ability to "
+"automatically generate archive pages. If your site has a lot of posts or "
+"if you want to provide an alternate more compact way of browsing all of "
+"your site's posts, such a feature may be of use to you."
+msgstr ""
+
+#: docs/quickstart/index.html:214
+msgid ""
+"Enabling this feature is done very much in the same way as enabling "
+"automatic tag pages. In your site's config, set "
+"<code>archive_layout</code> to the template in the templates directory "
+"you want mynt to use when rendering these pages. Doing so, a page will be"
+" rendered with that template for each year a post was made."
+msgstr ""
+
+#: docs/quickstart/index.html:221
+msgid "Now that we have the basics covered, it's time to generate your site."
+msgstr ""
+
+#: docs/quickstart/index.html:222
+msgid ""
+"Generating a mynt site is handled by two different subcommands: "
+"<code>gen</code> and <code>watch</code>. If you just need to make a quick"
+" change, <code>gen</code> is best for the job. It will generate your site"
+" and then exit."
+msgstr ""
+
+#: docs/quickstart/index.html:224
+msgid ""
+"If you're going to be making a bunch of changes to your site, constantly "
+"reusing <code>gen</code> will quickly become a hassle. Instead you can "
+"use the <code>watch</code> subcommand."
+msgstr ""
+
+#: docs/quickstart/index.html:226
+msgid ""
+"For the most part it is identical to <code>gen</code>. However, there is "
+"one major difference: Every time you make a change to your site, it will "
+"be automatically regenerated for you."
+msgstr ""
+
+#: docs/quickstart/index.html:228
+msgid ""
+"When using either subcommand, if the destination already exists, you will"
+" have to pass the <code>-f</code> flag to force generation."
+msgstr ""
+
+#: docs/quickstart/index.html:230
+msgid ""
+"In doing so, mynt will <strong>delete</strong> any directory or file at "
+"the root of the destination that doesn't begin with an underscore or "
+"period."
+msgstr ""
+
+#: docs/quickstart/index.html:232
+msgid ""
+"Now that you've generated your site, I'm sure you want to check it out "
+"and see the fruits of your efforts. If you have a local server setup "
+"you're good to go, but if you don't, mynt's got you covered. The last "
+"subcommand we're going to talk about is <code>serve</code>."
+msgstr ""
+
+#: docs/quickstart/index.html:237
+msgid ""
+"To start up the server pass the directory containing your generated site "
+"to the <code>serve</code> subcommand. Then, to view your site simply "
+"browse to <a href=\"http://localhost:8080/\">http://localhost:8080/</a>."
+msgstr ""
+
+#: docs/quickstart/index.html:240
+#, python-format
+msgid ""
+"For a more detailed look at the commands mynt provides, check out the <a "
+"href=\"%(command_line)s\">command line</a> documentation."
+msgstr ""
+
+#: docs/quickstart/index.html:245
+msgid ""
+"Once you're happy with your site, you're good to upload it to whichever "
+"host you wish, whether that be <a "
+"href=\"https://pages.github.com\">GitHub Pages</a> or your own VPS."
+msgstr ""
+
+#: docs/templates/index.html:6 docs/templates/index.html:30
+msgid "Data"
+msgstr ""
+
+#: docs/templates/index.html:8
+msgid "archives"
+msgstr ""
+
+#: docs/templates/index.html:9
+msgid "posts"
+msgstr ""
+
+#: docs/templates/index.html:10
+msgid "site"
+msgstr ""
+
+#: docs/templates/index.html:11
+msgid "tags"
+msgstr ""
+
+#: docs/templates/index.html:14
+msgid "archive"
+msgstr ""
+
+#: docs/templates/index.html:15
+msgid "post"
+msgstr ""
+
+#: docs/templates/index.html:16
+msgid "tag"
+msgstr ""
+
+#: docs/templates/index.html:19 docs/templates/index.html:156
+msgid "Filters"
+msgstr ""
+
+#: docs/templates/index.html:20
+msgid "absolutize"
+msgstr ""
+
+#: docs/templates/index.html:21
+msgid "date"
+msgstr ""
+
+#: docs/templates/index.html:23 docs/templates/index.html:190
+msgid "Helpers"
+msgstr ""
+
+#: docs/templates/index.html:24
+msgid "get_asset"
+msgstr ""
+
+#: docs/templates/index.html:25
+msgid "get_url"
+msgstr ""
+
+#: docs/templates/index.html:35
+msgid "A dictionary of post <a href=\"#data.locals.archive\">archive</a> data."
+msgstr ""
+
+#: docs/templates/index.html:52
+msgid ""
+"Iterating over <code>archives</code> yields a tuple of the year and a "
+"dictionary of that year's data."
+msgstr ""
+
+#: docs/templates/index.html:57
+msgid ""
+"A list of all <a href=\"#data.locals.post\">posts</a> in reverse "
+"chronological order."
+msgstr ""
+
+#: docs/templates/index.html:61
+#, python-format
+msgid "A dictionary of the site's <a href=\"%(config)s\">config</a> data."
+msgstr ""
+
+#: docs/templates/index.html:68
+msgid ""
+"A dictionary of all <a href=\"#data.locals.tag\">tags</a> sorted by count"
+" <em>(descending)</em> then name <em>(ascending, case insensitive)</em>."
+msgstr ""
+
+#: docs/templates/index.html:73
+msgid ""
+"Iterating over <code>tags</code> yields a tuple of the the tag name and a"
+" dictionary of that tag's data."
+msgstr ""
+
+#: docs/templates/index.html:82
+msgid "A dictionary of archive data."
+msgstr ""
+
+#: docs/templates/index.html:84
+msgid "This variable is only available in <code>archive_layout</code>."
+msgstr ""
+
+#: docs/templates/index.html:89
+msgid ""
+"A dictionary of <a href=\"#data.locals.post\">posts</a> sorted by month "
+"in reverse chronological order."
+msgstr ""
+
+#: docs/templates/index.html:91
+msgid ""
+"Iterating over <code>months</code> yields a tuple of the month and a list"
+" of that month's posts."
+msgstr ""
+
+#: docs/templates/index.html:96
+msgid "The URL to the year's archive page based on <code>archives_url</code>."
+msgstr ""
+
+#: docs/templates/index.html:99
+msgid "The year of the archive."
+msgstr ""
+
+#: docs/templates/index.html:105
+msgid "A dictionary of post data."
+msgstr ""
+
+#: docs/templates/index.html:107
+msgid "This variable is only available in a post's <code>layout</code>."
+msgstr ""
+
+#: docs/templates/index.html:111
+msgid "The body of the post."
+msgstr ""
+
+#: docs/templates/index.html:114
+msgid "The date of the post formatted according to <code>date_format</code>."
+msgstr ""
+
+#: docs/templates/index.html:117
+msgid "The contents of the first <code>&lt;p&gt;</code> of <code>content</code>."
+msgstr ""
+
+#: docs/templates/index.html:120
+msgid ""
+"A list of tags belonging to the post sorted by name <em>(ascending, case "
+"insensitive)</em>."
+msgstr ""
+
+#: docs/templates/index.html:123
+msgid "The timestamp of the post."
+msgstr ""
+
+#: docs/templates/index.html:126
+msgid "The URL of the post formatted according to <code>posts_url</code>."
+msgstr ""
+
+#: docs/templates/index.html:132
+msgid "A dictionary of tag data."
+msgstr ""
+
+#: docs/templates/index.html:134
+msgid "This variable is only available in <code>tag_layout</code>."
+msgstr ""
+
+#: docs/templates/index.html:138
+msgid ""
+"An <a href=\"#data.globals.archives\">archive</a> containing only posts "
+"belonging to the tag."
+msgstr ""
+
+#: docs/templates/index.html:141
+msgid "The number of posts containing the tag."
+msgstr ""
+
+#: docs/templates/index.html:144
+msgid "The name of the tag."
+msgstr ""
+
+#: docs/templates/index.html:147
+msgid ""
+"A list of <a href=\"#data.locals.post\">posts</a> belonging to the tag in"
+" reverse chronological order."
+msgstr ""
+
+#: docs/templates/index.html:150
+msgid "The URL to the tag page based on <code>tags_url</code>."
+msgstr ""
+
+#: docs/templates/index.html:160
+msgid "Attempts to convert all URLs in the supplied HTML to absolute URLs."
+msgstr ""
+
+#: docs/templates/index.html:162 docs/templates/index.html:219
+msgid "This depends on <code>domain</code> being set."
+msgstr ""
+
+#: docs/templates/index.html:166
+msgid "The chunk of HTML to convert."
+msgstr ""
+
+#: docs/templates/index.html:172
+msgid "Returns a formatted date based on the supplied timestamp and format."
+msgstr ""
+
+#: docs/templates/index.html:177
+msgid "The timestamp to be formatted."
+msgstr ""
+
+#: docs/templates/index.html:179
+msgid "If <code>None</code>, the current date and time will be used."
+msgstr ""
+
+#: docs/templates/index.html:184
+msgid ""
+"The desired <a href=\"http://docs.python.org/library/datetime.html"
+"#strftime-and-strptime-behavior\">format</a> of <code>timestamp</code>."
+msgstr ""
+
+#: docs/templates/index.html:194
+msgid ""
+"Returns the URL to the asset based on <code>base_url</code> and "
+"<code>assets_url</code>."
+msgstr ""
+
+#: docs/templates/index.html:198
+msgid "The requested asset."
+msgstr ""
+
+#: docs/templates/index.html:204
+msgid "Returns a URL based on <code>base_url</code>."
+msgstr ""
+
+#: docs/templates/index.html:209
+msgid "The requested URL."
+msgstr ""
+
+#: docs/templates/index.html:211
+msgid ""
+"This parameter is optional. If not supplied, <code>base_url</code> will "
+"be returned."
+msgstr ""
+
+#: docs/templates/index.html:217
+msgid "Whether or not the returned URL should be an absolute URL."
+msgstr ""
+
