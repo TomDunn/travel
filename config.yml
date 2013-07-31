@@ -49,6 +49,6 @@ archives_url: /news/archives/
 jinja:
     extensions:
         - jinja2.ext.i18n
-posts_url: /news/<year>/<month>/<day>/<title>/
+posts_url: /posts/<year>/<month>/<day>/<title>/
 tag_layout: tag.html
 tags_url: /news/archives/

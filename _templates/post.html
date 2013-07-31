@@ -5,14 +5,5 @@
 {% set crumbs = (('News', 'news/'), (post.title|truncate(75),)) %}
 
 {% block content %}
-    <div class="item">
-        <div class="item-header">
-            <h1>{{ post.title }}</h1>
-            <h2>{{ post.date }}{% if post.tags %} <span>&raquo;</span> {% for tag in post.tags %}<a href="{{ get_url(tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}</h2>
-        </div>
-        
-        <div class="item-body">
-            {{ post.content }}
-        </div>
-    </div>
+    {% include "post-body.html" %}
 {% endblock %}

@@ -3,7 +3,9 @@
 }
 
 body {
-    background-image: url("../images/brickwall.png");
+    /*background-image: url("../images/brickwall.png");*/
+    /*background-image: url("../images/gray_jean.png");*/
+    background-image: url("../images/subtle_dots.png");
     background-position: left top;
     background-repeat: repeat;
 
@@ -61,5 +63,23 @@ nav#main ul {
 }
 
 div#content {
-    margin-left: 25%;
+    margin-left: 22%;
+}
+
+div.item-header {
+    background-color: #e6e6e6;
+    padding: 10px;
+}
+
+div.item-header h1,h2 {
+    margin: 0px
+}
+
+div.item-header h2 {
+    color: gray;
+    font-size: 1em;
+}
+
+div.item-body h1 {
+    border-bottom: 1px solid #dedede;
 }

@@ -5,5 +5,7 @@
 {% set crumbs = ((_('Overview'),),) %}
 
 {% block content %}
-    <p>Content</p>
+    {% for post in posts %}
+        {% include "post-body.html" %}
+    {% endfor %}
 {% endblock %}
