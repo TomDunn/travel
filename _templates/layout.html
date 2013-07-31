@@ -33,6 +33,34 @@
             {% block content %}{% endblock %}
         </div>
     </div>
+
+    {% block body_scripts %}
+        <script type="text/javascript" src="{{ get_asset('js/jquery-2.0.3.min.js') }}"></script>
+        <script type="text/javascript" src="{{ get_asset('js/galleria/galleria-1.2.9.min.js') }}"></script>
+        <script type="text/javascript">
+            Galleria.loadTheme('{{ get_asset("js/galleria/themes/classic/galleria.classic.min.js") }}');
+            $('.gallery-stub').each(function(i) {
+                var path = '{{ get_asset('js/data') }}';
+                var id = this.id;
+                var file = path + '/' + id + '.json';
+
+                $.getJSON(file, function(data) {
+                    images = [];
+
+                    $.each(Object.keys(data), function(keyIndex, key) {
+                        $.each(data[key], function(index, media) {
+                            images.push({
+                                'image': media.images.standard_resolution,
+                                'thumb': media.images.thumbnail
+                            });
+                        });
+                    });
+
+                    Galleria.run('#'+id, {dataSource: images});
+                });
+            });
+        </script>
+    {% endblock %}
     
 </body>
 </html>
