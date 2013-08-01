@@ -21,9 +21,23 @@
             <ul>
                 <li>
                     {{ _("Navigation") }}
+
+                    <ul style="margin-bottom: 20px;">
+                        <li>
+                            <a href="{{ get_url('index.html') }}">Home</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    {{ _("Recent Posts") }}
                     
                     <ul class="unstyled">
-                        <li><a href="{{ get_url('docs/quickstart/') }}">{{ _("Put links here") }}</a></li>
+                        {% for post in posts[0:5] %}
+                            <li>
+                                <a href="{{ get_url(post.url) }}">{{ post.title }}</a>
+                            </li>
+                        {% endfor %}
                     </ul>
                 </li>
             </ul>
