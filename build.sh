@@ -1,4 +1,4 @@
 #!/bin/bash
 
 rm -rf _build/
-mynt gen _build
+/usr/local/bin/mynt gen _build

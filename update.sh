@@ -1,8 +1,4 @@
 #!/bin/bash
 
-cd /home/tom/Programming/Python/travel
-
-git pull
-python Update.py
-
-./build.sh
+TZ='America/New_York'; export TZ
+cd `dirname "${BASH_SOURCE[0]}"` && git pull && python Update.py && ./build.sh && echo `date` && echo "updated"
