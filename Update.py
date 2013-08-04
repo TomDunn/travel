@@ -9,7 +9,7 @@ from Insta import api, DuplicateMediumError, InstaPhotos
 pickle_file = "insta_photos.pecl"
 insta_photos = None
 tag_name = 'tdxcpicalbum'
-count = 50
+count = 5
 
 try:
     insta_photos = pickle.load(open(pickle_file))
@@ -43,7 +43,7 @@ pickle.dump(insta_photos, open(pickle_file, 'w'))
 photos_by_day = {}
 for m in insta_photos.media:
 
-    # convert instagram time to localtime (where laptop is)
+    # convert instagram time to localtime of laptop - E,C,M,P
     epoch = datetime.datetime(1970,1,1)
     delta = (m.created_time - epoch).total_seconds()
     lctime= time.localtime(delta)

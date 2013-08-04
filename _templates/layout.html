@@ -65,6 +65,7 @@
                         $.each(data[key], function(index, media) {
                             images.push({
                                 'image': media.images.standard_resolution,
+                                'title': media.caption,
                                 'thumb': media.images.thumbnail
                             });
                         });
