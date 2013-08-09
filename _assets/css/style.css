@@ -35,7 +35,7 @@ div#container {
 
 @media (min-device-width: 961px) {
     div#container {
-        width: 67%;
+        width: 80%;
     }
 }
 
@@ -103,7 +103,7 @@ nav#main ul {
 
 @media (min-device-width: 961px) {
     div#content {
-        margin-left: 22%;
+        margin-left: 25%;
     }
 }
 
