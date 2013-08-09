@@ -22,7 +22,7 @@
                 <li>
                     {{ _("Navigation") }}
 
-                    <ul style="margin-bottom: 20px;">
+                    <ul>
                         <li>
                             <a href="{{ get_url('index.html') }}">Home</a>
                         </li>
@@ -32,12 +32,21 @@
                 <li>
                     {{ _("Recent Posts") }}
                     
-                    <ul class="unstyled">
+                    <ul>
                         {% for post in posts[0:5] %}
                             <li>
                                 <a href="{{ get_url(post.url) }}">{{ post.title }}</a>
                             </li>
                         {% endfor %}
+                    </ul>
+                </li>
+
+                <li>
+                    {{ _("Other") }}
+                    <ul>
+                        <li>
+                            <a href="https://github.com/TomDunn/travel" title="source code on github">_("Blog source")</a>
+                        </li>
                     </ul>
                 </li>
             </ul>
