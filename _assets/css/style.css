@@ -107,6 +107,10 @@ nav#main ul {
     }
 }
 
+nav#main ul li > ul {
+    margin-bottom:  20px;
+}
+
 div.item-header {
     background-color: #e6e6e6;
     padding: 10px;
